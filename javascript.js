@@ -1,5 +1,6 @@
 
-
+$('text').text = "What is your Zodiac animal?"
+ 
  var month = prompt("Please enter your birth month as a number from 1-12"); 
     
     //error handling
@@ -11,10 +12,6 @@
             month = prompt("You entered " + month + ". Please enter your birth month as a number from 1-12");
             }
     }
-    
-    //add text
-    $('#text').text("here's your adorable animal zodiac sign!");
-    $('#text').css('color', 'blue');
 
     //add image based on input
     if (parseInt(month) <= 3) { //3 = "3"
@@ -27,3 +24,6 @@
         $('#image').html('<img src="http://s3.favim.com/orig/46/adorable-animals-cute-giraffe-Favim.com-424983.jpg">');
     }
     
+    //add text
+    $('#text').text("Here's your adorable animal zodiac sign!");
+    $('#text').css('color', 'blue');
