@@ -14,6 +14,8 @@ $('#text').text = "What is your Zodiac animal? Let's find out!"
     }
     
     //add text
+    $('#text').text("Here's your adorable animal zodiac sign!");
+    $('#text').css('color', 'blue');
 
      //add image based on input
     if (parseInt(month) <= 3) { //3 = "3"
@@ -26,5 +28,4 @@ $('#text').text = "What is your Zodiac animal? Let's find out!"
         $('#image').html('<img src="http://s3.favim.com/orig/46/adorable-animals-cute-giraffe-Favim.com-424983.jpg">');
     }
 
-    $('#text').text("Here's your adorable animal zodiac sign!");
-    $('#text').css('color', 'blue');
+
