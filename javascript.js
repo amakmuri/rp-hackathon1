@@ -3,7 +3,7 @@ var convertMonthToString = ['January','February','March','April',
     'May','June','July','August','September','October','November','December'];
 
 //user input
-var month = prompt("Please enter your birth month as a number from 1-12"); 
+var month = prompt("What's your Zodiac animal? Let's find out!\nPlease enter your birth month as a number from 1-12"); 
 
 
 //error handling
