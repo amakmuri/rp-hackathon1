@@ -21,9 +21,9 @@ while (true) {
 
 
 //add text
-$('#input').text("You were born in "+month_str+".");
-$('#input').css('color', 'blue');
+$('#input').text("You were born in " + month_str + "...");
 $('#text').text("Here's your adorable animal zodiac sign!");
+$('#text').css('color', 'blue');
    
 
 //add image
